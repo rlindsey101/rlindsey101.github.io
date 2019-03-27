@@ -1,0 +1,37 @@
+/*Selector {
+		Property: value;
+}*/
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: auto;
+	background-position: center;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Dancing Script';
+}
+
+p {
+	color: white;
+	line-height: 20px;
+	font-family: 'Indie Flower';
+	font-size: 120%;
+}
+
+li {
+	color: pink;
+}
+
+footer {
+	clear:both;
+	text-align: center;
+	color: white;
+}
+
+img {
+	float:right;
+}

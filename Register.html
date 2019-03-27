@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+		<header>
+		<h1>Registration</h1>	
+		</header>
+	<!-- Use GET, not POST -->
+	<form method="GET">
+		 First Name: <input type="text" name="firstname" required><br>
+		Last Name: <input type="text" name="lastname" required> <br>
+		Email: <input type="Email" name="Email" required><br>
+		Password: <input type="password" name="password" minlength="8"><br>
+		Birthday: <input type="date" name="Birthday"> <br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		Please check if you would like to receive: <br>
+		<input type="checkbox" name="Email alerts">Email alerts including coupons, news about our newest knives, and more!<br>
+		<input type="checkbox" name="Lanyard">A knife lanyard on us!<br>
+		<input type="checkbox" name="$$$">A million dollars!<br>
+		<p>If you would like a million dollars, please explain why: <input type="text">
+		</p><br>
+		How did you hear about us? <br>
+		<select name="Hearaboutus">
+			<option value="friend">Through a friend</option>
+			<option value="Facebook">Facebook</option>
+			<option value="Internet">Surfing the web</option>
+			<option value="Business card">Business card</option>
+			<option value="Other">Other</option><br>
+		</select><br><br>
+		<p>If other, please explain: <input type="text"></p><br>
+		<input type="submit" value="Register!">
+		<input type="reset" value="Oops!">
+		<a href="index.html"><hr>
+		Go Back
+	</a>
+	</form>
+	<footer>
+			<p><h6>Please note that we do not have a million dollars to send you. We are so sorry.</h6></p>
+		</footer>
+</body>
+</html>
